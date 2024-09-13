@@ -1,5 +1,3 @@
-![output1_12](https://github.com/user-attachments/assets/51e8d8bf-7a10-4a72-9cb8-bffb7b7b391f)# OS-Linux-commands-Shell-scripting
-Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
 
