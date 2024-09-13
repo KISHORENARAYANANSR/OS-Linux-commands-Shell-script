@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+![output1_12](https://github.com/user-attachments/assets/51e8d8bf-7a10-4a72-9cb8-bffb7b7b391f)# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -42,12 +42,14 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-![output](./output1_1.png)
+![output]![output1_1](https://github.com/user-attachments/assets/3a093d9a-5459-4b66-ad59-b9383d3e30bc)
+
 
 
 cat < file2
 ## OUTPUT
-![output](./output1_2.png)
+![output]![output1_2](https://github.com/user-attachments/assets/05744bfd-6d12-462b-bdbe-da0dfb2fef9f)
+
 
 # Comparing Files
 cmp file1 file2
@@ -108,40 +110,48 @@ hello world
 ```
 grep Hello newfile 
 ## OUTPUT
-![output](./output1_9.png)
+![output]![output1_9](https://github.com/user-attachments/assets/b551ce64-1286-4c5f-9386-ee5b1f8b1f1c)
+
 
 
 grep hello newfile 
 ## OUTPUT
-![output](./output1_10.png)
+![output]!![output1_10](https://github.com/user-attachments/assets/25715c73-1faf-43ac-b691-25e4cc580e50)
+
+
 
 
 
 grep -v hello newfile 
 ## OUTPUT
-![output](./output1_11.png)
+![output]![output1_11](https://github.com/user-attachments/assets/5e4731a1-5657-41d8-8ac1-0cd82348bace)
+
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-![output](./output1_12.png)
+![output]![output1_12](https://github.com/user-attachments/assets/0820b89c-598c-43a3-8a29-7ffec77217bb)
+
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-![output](./output1_13.png)
+![output]![output1_13](https://github.com/user-attachments/assets/60c614d1-2b1d-4835-a63e-2f37f70fda92)
+
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
-![output](./output1_14.png)
+![output]![output1_14](https://github.com/user-attachments/assets/c15f8e6d-7092-4137-bc6d-1d40f4dd7e81)
+
 
 
 grep -w -n world newfile   
 ## OUTPUT
-![output](./output1_15.png)
+![output]![output1_15](https://github.com/user-attachments/assets/bdb7f3be-e5ba-41dc-a5b8-16bff93067ae)
+
 
 cat < newfile 
 ```
@@ -164,28 +174,33 @@ Linux is best in this World
 ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-![output](./output1_16.png)
+![output]![output1_16](https://github.com/user-attachments/assets/c9ed5649-67d3-42bb-8837-5b2c9cc6c4b4)
+
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-![output](./output1_17.png)
+![output]![output1_17](https://github.com/user-attachments/assets/052e09da-4b8a-4449-89f3-7dece27e078d)
+
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-![output](./output1_18.png)
+![output]![output1_18](https://github.com/user-attachments/assets/3ca547f5-5356-48ac-835b-da6df4463901)
+
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-![output](./output1_19.png)
+![output]![output1_19](https://github.com/user-attachments/assets/9b8f78fe-3d2d-4993-bc06-0c46a627a70a)
+
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
-![output](./output1_20.png)
+![output]![output1_20](https://github.com/user-attachments/assets/397678d8-3b28-45d5-8205-230297ad5bb3)
+
 
 
 egrep '(World$)' newfile 
