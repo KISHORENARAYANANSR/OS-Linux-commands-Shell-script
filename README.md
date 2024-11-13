@@ -1,6 +1,7 @@
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
-
+# NAME: KISHORE NARAYANAN SR
+# REG.NO: 212223110023
 # AIM:
 To practice Linux Commands and Shell Scripting
 
